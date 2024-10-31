@@ -15,30 +15,10 @@ No contexto do e-commerce, compreender o comportamento dos clientes e criar um b
 - Identificar padrões de compra e segmentar clientes para estratégias de marketing.
 - Fornecer insights acionáveis para otimizar campanhas e melhorar a experiência do cliente.
 
-## Dados Utilizados
-
-Os dados foram extraídos de um conjunto de transações de um e-commerce abrangendo 37 países. As principais colunas analisadas incluem:
-
-- **CustomerID**: Identificação do cliente
-- **InvoiceNo**: Código da fatura
-- **Description**: Descrição do produto
-- **Quantity**: Quantidade do produto
-- **InvoiceDate**: Data da compra
-- **UnitPrice**: Preço unitário do produto
-- **Country**: País da compra
-
 ## Resumo dos Repositórios
 
-- **Base**: Detalhamento do conjunto de dados, incluindo descrições das colunas e informações sobre a qualidade dos dados, com ênfase em valores ausentes e outliers.
-- **Projeto_RFM.ipynb**: Jupyter Notebook que documenta o processo de preparação dos dados e cálculo das métricas RFM. O notebook inclui visualizações e uma explicação detalhada de cada etapa do processo, desde a leitura dos dados até a geração do output final.
-- **Resumo do Projeto**: Uma visão geral das atividades realizadas, abordando a análise exploratória, a limpeza de dados, o cálculo das métricas RFM e a interpretação dos resultados.
-- **Insights**: Apresentação das conclusões obtidas a partir da análise RFM, incluindo sugestões para campanhas de marketing personalizadas com base nas características dos diferentes segmentos de clientes.
-
-## Conclusões e Recomendações
-
-- A segmentação dos clientes com base nas métricas RFM pode melhorar significativamente as taxas de conversão.
-- Recomenda-se a personalização de campanhas de marketing e promoções específicas para diferentes segmentos de clientes, aumentando o engajamento e a satisfação.
-- É importante monitorar continuamente o comportamento dos clientes e atualizar as análises RFM periodicamente.
+- **Base**: Detalhamento do conjunto de dados, incluindo descrições das colunas e informações sobre a qualidade dos dados, Alem de possuir os dados caso desejar realizar alise própria.
+- **EDA_RFM.ipynb**: Jupyter Notebook que documenta o processo de preparação dos dados e cálculo das métricas RFM. O notebook inclui visualizações e uma explicação detalhada de cada etapa do processo, desde a leitura dos dados até a geração do output final.
 
 ## Referências
 
